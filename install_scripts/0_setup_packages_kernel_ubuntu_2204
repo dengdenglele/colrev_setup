@@ -1,3 +1,5 @@
 sudo apt update && sudo apt upgrade -y
 sudo apt autoremove --purge -y
 sudo apt-get install linux-image-generic-hwe-22.04
+sudo reboot
+echo "please reboot your system"

@@ -1,0 +1,11 @@
+sudo apt install git
+git config --global user.name "Lisa Smith"
+git config --global user.email "lisa.smith@stud.uni-bamberg.de"
+git config --global credential.helper store
+mkdir -p ~/.ssh
+ssh-keygen -t ed25519
+echo "please copy the following string and register it on github.com"
+echo
+cat ~/.ssh/*.pub
+echo
+firefox https://github.com/settings/ssh/new
