@@ -1,3 +1,4 @@
+```bash
 # preparation
 sudo apt install perl make gcc bzip2 tar
 
@@ -9,3 +10,4 @@ bash autorun.sh
 # reboot system
 # enable "bidirectional clipboard"
 # adjust screen resolution accordingly
+```
